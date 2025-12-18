@@ -1,0 +1,472 @@
+i need to write docs helping ton people
+
+# TON Dev Experience Lab Announcement
+
+<aside>
+✨
+
+### Help us improve TON Developer Documentation , Tools & Onboarding
+
+We are launching **TON Dev Experience Lab :** an invite-only 3-week technical sprint for developers to help improve TON’s documentation, onboarding flow, SDKs & tools.
+
+We are selecting about 20 **developers** across 3 personas 👥
+
+- _New to_ Web3 (10)
+- _New to_ TON - Web3 natives (5)
+- _dApp Developers -_ TON native (5)
+
+## [Interest Form](https://docs.google.com/forms/d/e/1FAIpQLSdnaHfSAgi2k0lugCc10Ne6E0KHpBBxaFKw5rKwl750TpfUcQ/viewform)
+
+</aside>
+
+# 🎯 Program Goals
+
+- Strengthen TON’s developer documentation and overall information architecture .
+- Benchmark TON’s documentation quality against leading stack (React) and chains like Solana , Polygon and Ethereum .
+- Evaluate dApp and smart contract developer tools through hands-on testing .
+- Identify missing features , usability issues , bugs and experience gaps that impact developers .
+- Build and deploy a lightweight prototype to validate the findings and test the recommended improvements .
+
+# 🏆 Reward Details
+
+💸 Top 10 developers would receive prizes from a prize pool of $6k
+
+📢 Top contributors would be featured in our official X and Community Channels
+
+🤝🏻 Mentorship opportunity by the best developers / leaders in the space
+
+🚀 Kickstart your Web3 journey by being an early contributor and unlock special perks
+
+🎯 Priority access to bounties & future opportunities for top contributors
+
+---
+
+# 🤔 Interesting , tell me more !
+
+Alright , we’re excited too :)
+
+---
+
+## **What This Program Is**
+
+The TON Dev Experience Lab is a short , 3 week initiative where a small group of developers test TON’s developer ecosystem and tell us how to make it better .
+
+❌ It’s not a course
+
+❌ ~~Hackathon~~ → ✅ Hands on review sprint
+✅ Designed to improve TON’s docs , tools and onboarding
+
+---
+
+## 🧐 **What Participants Actually Do**
+
+Across 3 weeks , developers will :
+
+- Review TON’s documentation and tell us what works and what doesn’t
+- Compare TON docs to other stack (like React) and ecosystems docs like Solana , Polygon and Ethereum
+- Try dApp & smart contract toolkit
+- Report bugs , missing features and UX issues in tooling and docs
+- Build a small prototype to validate how smooth or painful the documentation is
+
+_This helps us understand real friction points instead of theoretical guesses_
+
+---
+
+## ❓ **Why We’re Doing This**
+
+:image: **TON** is growing fast and we need a better developer experience to match that scale . - Real , unbiased developer feedback -
+
+🧑‍🤝‍🧑 We wish to include a diverse set of developers who’s collective work would ensure better onboarding for every future developer
+
+🤝🏻 Each group gives us a different angle on what’s confusing , what’s missing and what needs improvement
+
+---
+
+## We wish to understand
+
+What makes onboarding slow
+
+- What breaks the flow for first time users
+- What’s unclear in docs
+- What tools need fixes or redesign
+- Where TON is weaker or stronger than other chains
+
+_The goal is simple: make TON easier , clearer and more developer friendly_
+
+---
+
+## 🗒️ **How It Works**
+
+- We select 20 developers based on their skills and knowledge.
+- Participants complete weekly tasks and share structured feedback
+- Top contributors whose work has meaningful impact receive rewards
+- Everyone gets a certificate and exposure
+- We summarize all findings in a final documentation improvement report
+
+_It’s focused feedback with real impact ._
+
+---
+
+## 🔍 **Who Should Join**
+
+Anyone with software development experience who wants :
+
+- Early access to TON’s dev ecosystem
+- Direct influence on TON’s docs and tools
+- A spotlight from the official TON community
+- A chance to build a simple prototype and get feedback
+
+## 🎉 **It’s a WIN-WIN for everyone !**
+
+👥 **Participants** get
+
+• Hands on experience with TON
+
+• Direct interaction with TON DevRel
+
+• Visibility and credential boost
+
+• Rewards for meaningful contributions
+
+:image: **TON** gets
+
+• Honest feedback
+
+• Clear benchmarks vs other chains
+
+• A prioritized list of fixes and improvements
+
+• Better onboarding for every future developer
+
+---
+
+## I’m sold ! Where do I sign up ?
+
+✨ Great !
+
+Please fill the interest form using the link given below , we will get in touch ASAP once the
+
+<aside>
+
+**We request to have at least three things in every feedback**
+
+---
+
+- Screenshot of issue / suggestion you’re taking about
+- Links of part of the documentation discussed / references of improvements you’re sharing
+- Your feedback : better if you provide as text first then share a loom / video if you think it’s necessary
+
+</aside>
+
+<aside>
+
+_For each reading session, note down learnings and **suggestions** , using these 3 metrics :_
+
+- **UX**
+- **Clarity**
+- **Factual accuracy**
+</aside>
+
+# Reviewer’s Guide
+
+_We request using https://Fathom.Video to record every call so you have a copy even if we accidentally fail to record_
+
+[**Program Details**](https://www.notion.so/TON-Dev-Experience-Lab-Announcement-2b85274bd2cf80a7912af57133ced2c4?pvs=21) | [**Docs**](https://docs.ton.org/)
+
+---
+
+<aside>
+
+### Orientation Call
+
+https://fathom.video/share/oD9PULFKbPH9mytQ3C7E9JyLzmSGnxx5
+
+</aside>
+
+<aside>
+
+### Page Setup
+
+Please DM @fredrikparker in Telegram with your email to get access to your individual Notion Page for reporting
+
+**Demo Video**
+https://www.loom.com/share/cc07300e344a4492a4a0102ff1fae0da
+
+</aside>
+
+---
+
+## Persona Assignment
+
+\*We have divided the review group into three personas based on their familiarity with TON and with Web3 in general - we will DM about your Persona and your Individual Review Page
+
+For queries , kindly disturb : https://t.me/fredrikparker*
+
+---
+
+## Week 1: Documentation review
+
+Here are suggested topics to cover during the first week when going through documentation for the first time .
+
+**links pending\***
+
+Day 1 - Core blockchain concepts
+
+Day 2 - Development and smart contract tooling
+
+Day 3 - Tokens, assets, and standards
+
+Day 4 - Wallets, apps, and ecosystem tools
+
+Day 5 - Infrastructure, staking, and node operations
+
+_The **OBJECTIVE** of this week is to get used to a certain format of reporting feedback / criticism / suggestions ._
+
+<aside>
+
+_For each reading session, note down learnings and **suggestions** , using these 3 metrics :_
+
+- **UX**
+- **Clarity**
+- **Factual accuracy**
+</aside>
+
+> _Tasks are the same for all personas ._
+
+---
+
+## Week 2: Implementation tasks by persona
+
+Here are suggested tasks to cover during the second week when going through documentation to review by implementation
+
+**Novice**
+
+- Set up a TON wallet and send your first on‑chain transfer.
+- Explore TON explorers and read a simple transaction trace.
+- Deploy a basic Jetton using a no‑code or low‑code tool.
+- Interact with a Telegram Mini App that uses TON Connect.
+- Run a simple get method on a contract using a public API.
+
+**Nomad**
+
+- Write and deploy your first smart contract with Tact or FunC.
+- Build a simple TMA that connects a TON wallet via TON Connect.
+- Mint a Jetton with custom metadata and verify it on chain.
+- Test and debug your contract using local TVM tools.
+- Implement gas estimation and understand execution phases from traces.
+
+**TON Pro**
+
+- Implement a multi‑contract architecture with sharding‑aware message flows.
+- Use advanced TVM features like continuations and builder logic.
+- Write custom on‑chain libraries for reusable logic.
+- Build a production‑grade staking or vesting contract with an upgrade path.
+- Integrate Merkle proofs and system contracts for trustless verification.
+
+---
+
+## Week 2 Mini Project (Recommended): Pay‑to‑Join Group / Content (Paywall)
+
+This is a simple “real app” that tests TON’s docs + tooling end-to-end: wallet connection → payment → on-chain verification → unlock content.
+
+### ✅ What you are building
+
+- A **Paywall smart contract** on TON.
+- Users send a fixed amount of TON to the contract to buy access.
+- Contract records access (example: **valid until timestamp**).
+- Frontend (web or Telegram Mini App) checks access via a **get method** and unlocks content.
+
+### 🔑 Important concept: “content is not stored on-chain”
+
+TON smart contracts are great for **payments + access state**, not for serving large content.
+
+- **On-chain**: price, owner, payments, and access list / expiry.
+- **Off-chain**: the actual “group link / premium page / file”, gated by checking `hasAccess()`.
+
+### 🧱 Minimal contract requirements (spec)
+
+**Storage**
+- `owner: Address`
+- `price: Coins` (example: 0.5 TON)
+- `accessDurationSec: Int` (example: 30 days)
+- `accessUntil: map<Address, Int>` (unix time until access is valid)
+
+**Messages (internal)**
+1) **BuyAccess**
+- Anyone can call it by sending `value >= price`.
+- Contract sets `accessUntil[sender] = max(oldAccessUntil, now) + accessDurationSec`
+- Contract keeps funds (owner withdraws later).
+
+2) **Withdraw**
+- Only `owner` can withdraw contract balance (optionally keep a minimum for storage rent).
+
+3) (Optional) **Admin updates**
+- `SetPrice(newPrice)`
+- `SetAccessDuration(newDuration)`
+
+**Get methods (read-only)**
+- `getPrice()` → current price
+- `getOwner()` → owner address
+- `getAccessUntil(user)` → timestamp
+- `hasAccess(user, now)` → bool (or compute in frontend)
+
+### 🔁 UX flow (what users do)
+
+1) User opens your app page / Telegram Mini App.
+2) User connects wallet via **TON Connect**.
+3) App shows “Pay X TON to unlock”.
+4) User clicks Pay → wallet sends transaction to paywall contract.
+5) App waits for confirmation (or polls) then calls `getAccessUntil(user)` and unlocks content.
+
+### 🛠️ Implementation steps with `create-ton`
+
+**1) Scaffold the project**
+- Run: `npm create ton@latest`
+- **Project name**: `pay2join` (or any)
+- **Contract name**: must be **PascalCase and start with a capital letter**
+  - ✅ `Pay2Join`
+  - ✅ `MyTonApp`
+  - ❌ `myTonApp` (this is why you saw: “Cannot create a contract with the name 'myTonApp'”)
+- **Template**: pick **“An empty contract (Tact)”** for a clean start.
+
+**2) Implement Paywall logic**
+- Add `price`, `accessDurationSec`, mapping `accessUntil[address]`
+- Implement buy + withdraw handlers
+- Add get methods (price + access checks)
+
+**3) Add a minimal frontend**
+Frontend only needs:
+- connect wallet (TON Connect)
+- “Pay” button
+- “Check access” (calls get method)
+- conditional UI: locked vs unlocked
+
+**4) Test locally**
+Test cases to run:
+- user pays exactly price → access granted
+- user pays less than price → rejected (document behavior)
+- same user pays twice → expiry extends
+- non-owner withdraw → rejected
+- owner withdraw → success
+
+**5) Deploy to testnet + verify end-to-end**
+- contract deployed
+- app connects wallet
+- payment works
+- access check works from get method
+- unlock UI shows correctly
+
+### 📚 Docs to review while doing this (collect links + screenshots)
+
+- TON Connect overview: https://docs.ton.org/develop/dapps/ton-connect/overview
+- Messages & transactions: https://docs.ton.org/develop/smart-contracts/messages-and-transactions
+- Execution phases (debugging): https://docs.ton.org/develop/smart-contracts/execution-phases
+- Traces: https://docs.ton.org/develop/smart-contracts/traces
+- Estimate gas usage: https://docs.ton.org/develop/smart-contracts/estimate-gas-usage-in-ton-contracts
+- Tact language: https://tact-lang.org/
+
+### 🧪 “Week 2” feedback prompts (write these as you build)
+
+**UX**
+- Was it obvious how to choose between FunC/Tact/Tolk templates?
+- Was `create-ton` error messaging clear (PascalCase requirement)?
+- Was local testing and deployment smooth?
+
+**Clarity**
+- Did docs show a full “payment → on-chain state → UI unlock” example?
+- Were there concrete TON Connect examples for a **paywall** (not just “connect wallet”)?
+
+**Factual accuracy**
+- Any commands that didn’t work as shown?
+- Any SDK versions / links outdated?
+
+### 🧩 Suggested TON docs improvements (based on this project)
+
+If you hit friction, these are high-impact doc additions:
+- A **“Paywall / Pay-to-Join” tutorial** (contract + TON Connect UI + verification loop).
+- A `create-ton` page that clearly states **contract naming rules** (PascalCase, start uppercase) with examples.
+- A short guide: **“How to unlock off-chain content using a get method”** (best practices + security notes).
+
+---
+
+## Week 3: Capstone project
+
+Based on learnings from Weeks 1 and 2, each participant should create a project on their own.
+
+They can refer to the **Idea Wishlist** below for inspiration.
+
+### Idea Wishlist
+
+1. Wallet balance viewer using TON API
+2. Jetton portfolio tracker
+3. Simple TON tip bot for Telegram
+4. TON address QR generator
+5. Mini App to send Toncoin to saved contacts
+6. On‑chain to‑do list stored in a basic contract
+7. Jetton faucet with rate limits
+8. NFT minter for single‑image NFTs
+9. TON Connect login demo
+10. Transaction history viewer
+
+11. TON donation page with public leaderboard
+12. Telegram paywall bot using TON payments
+13. Tiny voting contract with on‑chain tally
+14. NFT certificate generator for events
+15. Staking dashboard pulling validator data
+16. TON price tracker with alerts
+17. Smart contract random number demo
+18. Jetton swap UI mock using DEX APIs
+19. Contract gas estimator tool
+20. TON account status inspector
+
+---
+
+1. On‑chain message board using a Tolk contract
+2. Referral link generator tied to Jetton rewards
+3. “Send yourself a message” contract sandbox
+4. Batch transaction sender for testnet
+5. TON Connect tutorial Mini App
+6. NFT gallery viewer for a wallet
+7. TON name service lookup tool
+8. Simple escrow contract with dispute timeout
+9. Subscription payment demo using Jettons
+10. Explorer filtered by your wallet tags
+
+11. Airdrop distributor with whitelist checks
+12. Vesting schedule visualizer
+13. Multi‑sig dashboard that simulates approvals
+14. Network status and block time monitor
+15. Contract storage viewer using get methods
+16. Push‑button UI to deploy a basic contract
+17. Leaderboard‑style mini game with NFT badges
+18. Community points system stored on chain
+19. Gas usage comparison tool for different operations
+20. Tiny marketplace for digital items using Jettons
+
+---
+
+<aside>
+
+# Sample Pages
+
+_Report format to track and submit your feedback :_
+
+<aside>
+
+[Name (Sample Reviewer Page)](https://www.notion.so/Name-Sample-Reviewer-Page-2c0bbce0c62181098593c9b54769011f?pvs=21)
+
+</aside>
+
+<aside>
+
+[Sample Review Page](https://www.notion.so/Sample-Review-Page-2c0bbce0c6218119b6ede51fa13eb31c?pvs=21)
+
+</aside>
+
+<aside>
+
+[Sample Interview Page](https://www.notion.so/Sample-Interview-Page-2c0bbce0c62181c5896fdb1e9283da14?pvs=21)
+
+</aside>
+
+</aside>
