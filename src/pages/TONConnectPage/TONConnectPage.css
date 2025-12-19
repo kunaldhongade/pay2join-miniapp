@@ -14,3 +14,41 @@
 .ton-connect-page__button-connected {
   margin: 16px 24px 16px auto;
 }
+
+.ton-connect-page__pay2join {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px 16px;
+}
+
+.ton-connect-page__label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ton-connect-page__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: transparent;
+  color: inherit;
+  outline: none;
+}
+
+.ton-connect-page__hint {
+  opacity: 0.8;
+}
+
+.ton-connect-page__error {
+  color: #d43c3c;
+  word-break: break-word;
+}
+
+.ton-connect-page__ok {
+  color: #2ea043;
+  word-break: break-word;
+}

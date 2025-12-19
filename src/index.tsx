@@ -1,12 +1,15 @@
 // Include Telegram UI styles first to allow our code override the package CSS.
 import '@telegram-apps/telegram-ui/dist/styles.css';
 
-import ReactDOM from 'react-dom/client';
-import { StrictMode } from 'react';
-import { retrieveLaunchParams } from '@tma.js/sdk-react';
+// Polyfills must be loaded before importing TON SDKs.
+import './polyfills.ts';
 
-import { Root } from '@/components/Root.tsx';
+import { retrieveLaunchParams } from '@tma.js/sdk-react';
+import { StrictMode } from 'react';
+import ReactDOM from 'react-dom/client';
+
 import { EnvUnsupported } from '@/components/EnvUnsupported.tsx';
+import { Root } from '@/components/Root.tsx';
 import { init } from '@/init.ts';
 
 import './index.css';
@@ -31,10 +34,10 @@ try {
     .then(() => {
       root.render(
         <StrictMode>
-          <Root/>
+          <Root />
         </StrictMode>,
       );
     });
 } catch (e) {
-  root.render(<EnvUnsupported/>);
+  root.render(<EnvUnsupported />);
 }
