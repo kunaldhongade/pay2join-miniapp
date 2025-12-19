@@ -8,7 +8,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig(({ command }) => ({
   // In dev we want http://localhost:5173/ (no "/reactjs-template/")
   // but for GH Pages build we keep the subpath base.
-  base: command === "serve" ? "/" : "/reactjs-template/",
+  base: command === "serve" ? "/" : "/",
   css: {
     preprocessorOptions: {
       scss: {
