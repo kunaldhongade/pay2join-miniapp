@@ -155,40 +155,80 @@ export const TONConnectPage: FC = () => {
         />
 
         <Section
-          header="Pay2Join (Pay-to-Join)"
-          footer="Paste your deployed Pay2Join contract address, then pay to unlock access."
+          header={
+            <div className={e('header-wrapper')}>
+              <div className={e('header-icon')}>🔐</div>
+              <div>
+                <Title level="2" className={e('header-title')}>Pay2Join</Title>
+                <Text className={e('header-subtitle')}>Unlock premium access</Text>
+              </div>
+            </div>
+          }
         >
           <div className={e('pay2join')}>
-            <label className={e('label')}>
-              <Text>Pay2Join contract address</Text>
-              <input
-                className={e('input')}
-                value={contractAddress}
-                onChange={(ev) => setContractAddress(ev.target.value)}
-                placeholder="EQ... or 0:..."
-              />
-            </label>
+            <div className={e('card')}>
+              <div className={e('card-header')}>
+                <div className={e('price-badge')}>
+                  <span className={e('price-amount')}>{PAY2JOIN_DEFAULT_PRICE_TON}</span>
+                  <span className={e('price-currency')}>TON</span>
+                </div>
+                <Text className={e('card-description')}>
+                  Pay once to unlock access for 30 days
+                </Text>
+              </div>
 
-            {!contractAddressLooksValid && (
-              <Text className={e('hint')}>Tip: deploy first, then paste the contract address here.</Text>
-            )}
+              <div className={e('input-group')}>
+                <label className={e('label')}>
+                  <Text className={e('label-text')}>Contract Address</Text>
+                  <input
+                    className={e('input')}
+                    value={contractAddress}
+                    onChange={(ev) => setContractAddress(ev.target.value)}
+                    placeholder="EQ... or 0:..."
+                  />
+                </label>
 
-            <Cell
-              subtitle={`Price: ${PAY2JOIN_DEFAULT_PRICE_TON} TON (access duration set in contract config)`}
-              onClick={(ev) => {
-                ev.preventDefault();
-                if (!isPaying) void onPayToJoin();
-              }}
-            >
-              <Title level="3">{isPaying ? 'Sending transaction…' : 'Pay to Join'}</Title>
-            </Cell>
+                {!contractAddressLooksValid && contractAddress.length > 0 && (
+                  <div className={e('hint-box')}>
+                    <Text className={e('hint')}>
+                      ⚠️ Please enter a valid contract address
+                    </Text>
+                  </div>
+                )}
+              </div>
 
-            {payOk && (
-              <Text className={e('ok')}>{payOk}</Text>
-            )}
-            {payError && (
-              <Text className={e('error')}>{payError}</Text>
-            )}
+              <button
+                className={e('pay-button', { disabled: !contractAddressLooksValid || isPaying })}
+                onClick={(ev) => {
+                  ev.preventDefault();
+                  if (!isPaying && contractAddressLooksValid) void onPayToJoin();
+                }}
+                disabled={!contractAddressLooksValid || isPaying}
+              >
+                {isPaying ? (
+                  <>
+                    <span className={e('spinner')}></span>
+                    Processing...
+                  </>
+                ) : (
+                  <>
+                    <span className={e('button-icon')}>💎</span>
+                    Pay {PAY2JOIN_DEFAULT_PRICE_TON} TON to Join
+                  </>
+                )}
+              </button>
+
+              {payOk && (
+                <div className={e('status-box', { success: true })}>
+                  <Text className={e('status-text')}>✅ {payOk}</Text>
+                </div>
+              )}
+              {payError && (
+                <div className={e('status-box', { error: true })}>
+                  <Text className={e('status-text')}>❌ {payError}</Text>
+                </div>
+              )}
+            </div>
           </div>
         </Section>
       </List>

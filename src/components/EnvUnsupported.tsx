@@ -20,7 +20,11 @@ export function EnvUnsupported() {
     >
       <Placeholder
         header="Oops"
-        description="You are using too old Telegram client to run this application"
+        description={
+          typeof window !== 'undefined' && !(window as any)?.Telegram?.WebApp
+            ? "This application must be opened inside Telegram. Please open it through your Telegram bot or use the link provided in Telegram."
+            : "You are using too old Telegram client to run this application. Please update Telegram to the latest version."
+        }
       >
         <img
           alt="Telegram sticker"

@@ -1,9 +1,10 @@
 import { emitEvent, mockTelegramEnv } from "@tma.js/sdk-react";
 
-// It is important, to mock the environment only for development purposes. When building the
-// application, import.meta.env.DEV will become false, and the code inside will be tree-shaken,
-// so you will not see it in your final bundle.
-if (import.meta.env.DEV) {
+// Mock environment for development and also allow production testing via URL parameter
+// In production, you can test by adding ?mock=true to the URL
+const shouldMock = import.meta.env.DEV || new URLSearchParams(window.location.search).get('mock') === 'true';
+
+if (shouldMock) {
   // IMPORTANT:
   // Don't block app bootstrap with async environment checks.
   // In some browsers `isTMA('complete')` may wait for Telegram-specific signals and never resolve,

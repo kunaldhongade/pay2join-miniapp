@@ -15,11 +15,91 @@
   margin: 16px 24px 16px auto;
 }
 
+/* Header Styles */
+.ton-connect-page__header-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.ton-connect-page__header-icon {
+  font-size: 32px;
+  line-height: 1;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.ton-connect-page__header-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.ton-connect-page__header-subtitle {
+  margin: 4px 0 0;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+/* Pay2Join Card */
 .ton-connect-page__pay2join {
+  padding: 16px;
+}
+
+.ton-connect-page__card {
+  background: var(--tg-theme-secondary-bg-color, #ffffff);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(127, 127, 127, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 0 16px 16px;
+  gap: 20px;
+}
+
+.ton-connect-page__card-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.1);
+}
+
+.ton-connect-page__price-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  background: linear-gradient(135deg, #0088cc 0%, #0066aa 100%);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
+  font-weight: 700;
+}
+
+.ton-connect-page__price-amount {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.ton-connect-page__price-currency {
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+.ton-connect-page__card-description {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Input Group */
+.ton-connect-page__input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .ton-connect-page__label {
@@ -28,27 +108,158 @@
   gap: 8px;
 }
 
+.ton-connect-page__label-text {
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+
 .ton-connect-page__input {
   width: 100%;
   box-sizing: border-box;
-  padding: 10px 12px;
+  padding: 14px 16px;
   border-radius: 12px;
-  border: 1px solid rgba(127, 127, 127, 0.35);
-  background: transparent;
-  color: inherit;
+  border: 2px solid rgba(127, 127, 127, 0.2);
+  background: var(--tg-theme-bg-color, #ffffff);
+  color: var(--tg-theme-text-color, #000000);
   outline: none;
+  font-size: 15px;
+  font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
+  transition: all 0.2s ease;
+}
+
+.ton-connect-page__input:focus {
+  border-color: #0088cc;
+  box-shadow: 0 0 0 3px rgba(0, 136, 204, 0.1);
+}
+
+.ton-connect-page__input::placeholder {
+  opacity: 0.5;
+  font-family: inherit;
+}
+
+.ton-connect-page__hint-box {
+  background: rgba(255, 193, 7, 0.1);
+  border: 1px solid rgba(255, 193, 7, 0.3);
+  border-radius: 8px;
+  padding: 10px 12px;
 }
 
 .ton-connect-page__hint {
-  opacity: 0.8;
+  margin: 0;
+  font-size: 13px;
+  color: #f57c00;
+  line-height: 1.4;
 }
 
-.ton-connect-page__error {
-  color: #d43c3c;
+/* Pay Button */
+.ton-connect-page__pay-button {
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(135deg, #0088cc 0%, #0066aa 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 136, 204, 0.4);
+  margin-top: 8px;
+}
+
+.ton-connect-page__pay-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 136, 204, 0.5);
+}
+
+.ton-connect-page__pay-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.ton-connect-page__pay-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.ton-connect-page__button-icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.ton-connect-page__spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Status Messages */
+.ton-connect-page__status-box {
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-top: 8px;
+  animation: slideIn 0.3s ease;
+}
+
+.ton-connect-page__status-box--success {
+  background: rgba(46, 160, 67, 0.1);
+  border: 1px solid rgba(46, 160, 67, 0.3);
+}
+
+.ton-connect-page__status-box--error {
+  background: rgba(212, 60, 60, 0.1);
+  border: 1px solid rgba(212, 60, 60, 0.3);
+}
+
+.ton-connect-page__status-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
   word-break: break-word;
 }
 
-.ton-connect-page__ok {
+.ton-connect-page__status-box--success .ton-connect-page__status-text {
   color: #2ea043;
-  word-break: break-word;
+}
+
+.ton-connect-page__status-box--error .ton-connect-page__status-text {
+  color: #d43c3c;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .ton-connect-page__card {
+    background: var(--tg-theme-secondary-bg-color, #1e1e1e);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .ton-connect-page__input {
+    background: var(--tg-theme-bg-color, #1e1e1e);
+  }
 }
