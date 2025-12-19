@@ -13,3 +13,27 @@
 .display-data__line-value {
   word-break: break-word;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .display-data__line {
+    padding: 12px 16px !important;
+    min-height: 56px;
+  }
+
+  .display-data__line-value {
+    font-size: 14px;
+    word-break: break-all;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 375px) {
+  .display-data__line {
+    padding: 10px 12px !important;
+  }
+
+  .display-data__line-value {
+    font-size: 13px;
+  }
+}

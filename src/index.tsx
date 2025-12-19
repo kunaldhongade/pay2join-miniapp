@@ -1,6 +1,3 @@
-// Include Telegram UI styles first to allow our code override the package CSS.
-import '@telegram-apps/telegram-ui/dist/styles.css';
-
 // Polyfills must be loaded before importing TON SDKs.
 import './polyfills.ts';
 
@@ -12,7 +9,10 @@ import { EnvUnsupported } from '@/components/EnvUnsupported.tsx';
 import { Root } from '@/components/Root.tsx';
 import { init } from '@/init.ts';
 
+// Import Tailwind CSS FIRST - this ensures Tailwind utilities are available
 import './index.css';
+// Telegram UI styles loaded after (Tailwind can override with higher specificity)
+import '@telegram-apps/telegram-ui/dist/styles.css';
 
 // Mock the environment in case, we are outside Telegram.
 // This must be imported BEFORE retrieveLaunchParams is called
